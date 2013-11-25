@@ -1,0 +1,11 @@
+.project
+._*
+.~lock.*
+.buildpath
+.DS_Store
+.project
+.settings
+.buildpath
+
+node_modules/
+npm-debug.log

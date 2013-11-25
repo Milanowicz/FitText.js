@@ -26,9 +26,11 @@ This will hopefully give you a level of "control" that might not be pixel perfec
 
 ## minFontSize & maxFontSize
 FitText now allows you to specify two optional pixel values: `minFontSize` and `maxFontSize`. Great for situations when you want to preserve hierarchy.
+You can specify two optional values for the LineHeight: `minLineHeight` and `minLineHeight` and last parameter is default false, it measure by html element, when you set it on true, then would be measure from browser window
 
 ```javascript
-jQuery("#responsive_headline").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' })
+jQuery("#responsive_headline").fitText(1.2, { minFontSize: '20', maxFontSize: '40' })
+jQuery("#responsive_headline").fitText(1.2, { minFontSize: '20', maxFontSize: '40', minLineHeight: '20', minLineHeight: '32', windowSize: true })
 ```
 
 ## CSS FAQ
@@ -46,6 +48,7 @@ That's okay. Check out these handy non-jQuery versions maintained by other peopl
 - [Angular.js FitText.js](https://github.com/patrickmarabeas/AngularJS-FitText.js) from @patrickmarabeas
 
 ## Changelog
+* `v 1.2.1` - Added GruntJS and check if Browser supoort the REM Unit
 * `v 1.2` - Added `onorientationchange` event
 * `v 1.1` - FitText now ignores font-size and has minFontSize & maxFontSize options
 * `v 1.0.1` - Fix for broken font-size.
