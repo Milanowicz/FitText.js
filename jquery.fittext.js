@@ -21,7 +21,7 @@
                 'maxFontSize' : Number.POSITIVE_INFINITY,
                 'minLineHeight' : Number.NEGATIVE_INFINITY,
                 'maxLineHeight' : Number.POSITIVE_INFINITY,
-                'windowSize' : false,
+                'windowSize' : false
             }, options);
 
 
