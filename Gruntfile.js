@@ -37,8 +37,7 @@ module.exports = function(grunt) {
                 src : 'jquery.fittext.js',
                 dest : 'jquery.fittext.min.js'
             }
-        },
-        
+        }
     });
     
     // Load Grunt Plug-Ins
