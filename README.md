@@ -61,3 +61,31 @@ If you want more exact fitting text, there are plugins for that! We recommend ch
 
 ### Download, Fork, Commit.
 If you think you can make this better, please Download, Fork, & Commit. We'd love to see your ideas.
+
+
+# Bower
+
+Install Bower at the first time when you never used it before.
+
+    $ npm install -g bower
+
+Install via Bower
+
+    $ bower install RWD-FitText.js
+
+
+# GruntJS
+
+Install GruntJS command line interface at the first time when you never used it before.
+
+	$ npm install -g grunt-cli
+
+Install all NodeJS Modules from Project
+
+	$ npm install
+
+## Usage
+
+Create a Release
+
+    $ grunt
